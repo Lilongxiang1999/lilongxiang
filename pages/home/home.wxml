@@ -1,0 +1,3 @@
+<!--pages/home/home.wxml-->
+<text class="title">yesl</text>
+<button size="mini">按钮</button>
