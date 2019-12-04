@@ -1,0 +1,15 @@
+<!--pages/login/login.wxml-->
+<view class="userinfo" >
+  <open-data type="userAvatarUrl" class="userinfo-avatar"></open-data>
+  <open-data type="userNickName" class="userinfo-nickname"></open-data>
+欢迎</view>
+
+
+<view class="header">
+</view>
+<view>
+  <input class="log" bind:change='inputName' maxlength="15" title="账号" placeholder="请输入账号" />
+  <input class="pas" bind:change='inputPassword' maxlength="15" title="密码" type="password" placeholder="请输入密码" />
+  <button class="dd" bindtap='login' type="primary">登录</button>
+  <button class="zz" bindtap='register' type="success">注册</button>
+</view>

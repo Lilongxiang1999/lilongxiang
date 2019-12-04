@@ -1,0 +1,14 @@
+<view class="userinfo">
+  <open-data type="userAvatarUrl" class="userinfo-avatar"></open-data>
+  <open-data type="userNickName" class="userinfo-nickname"></open-data>
+</view>
+
+<view>
+
+  <input class="log" bind:change='inputName' maxlength="15" title="账号" autofocus placeholder="请输入账号" />
+
+  <input class="pas" bind:change='inputPassword' type="password" maxlength="15" title="密码" autofocus placeholder="请输入密码" />
+
+  <button class="zc" bindtap='register' type="success">注册</button>
+
+</view>
